@@ -63,7 +63,7 @@ body{
 }
 
 
-/* Main */
+/* Main Заголовок */
 
 .section{
     background-color: #2F303A;
@@ -88,4 +88,23 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     align-items: center;
+}
+
+/* About */
+
+.subject{
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.text{
+    color: var(--secondary-text-color);
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
