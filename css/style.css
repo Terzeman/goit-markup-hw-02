@@ -108,3 +108,73 @@ body{
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
+
+.subtitle{
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Team */
+
+.headline{
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.div{
+    align-items: center;
+}
+
+.name{
+    columns: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.desk{
+    color: var(--secondary-text-color);
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.img{
+}
+
+/* Footer */
+
+.footer{
+    background-color:  #2F303A;
+}
+
+.secondary-logo{
+    color: var(--primary-white-color);
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.address{
+color: var(--primary-white-color);
+font-family: 'Roboto';
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+}
+
