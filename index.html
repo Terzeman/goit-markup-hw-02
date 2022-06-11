@@ -3,20 +3,24 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Home-work-1</title>
+    <title>Web Studio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
   <body>
       <!-- Шапка сторінки-->
-      <header>
-        <nav>
-            <ul>
-                <li><a href="#"><span>Web</span>Studio</a></li>
-                <li><a href="">Студия</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+      <header class="header">
+        <nav class="nav">
+            <ul class="header-list">
+                <li class="header-item"><a class="logo header-link" href="#"><span class="h-logo">Web</span>Studio</a></li>
+                <li class="header-item"><a class="header-link" href="">Студия</a></li>
+                <li class="header-item"><a class="header-link" href="./portfolio.html">Портфолио</a></li>
+                <li class="header-item"><a class="header-link" href="">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
+        <ul class="contacts">
                 <li><a href="mailto: info@devstudio.com">info@devstudio.com</a></li>
                 <li><a href="tel: +380961111111">+38 096 111 11 11</a></li>
         </ul>
@@ -24,52 +28,54 @@
       <!-- Основний контент -->
       <main>
           <!-- Заголовок -->
-       <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+       <section class="section">
+        <h1 class="title">Эффективные решения для вашего бизнеса</h1>
+        <button class="button" type="button">Заказать услугу</button>
        </section>
 
-       <section>
-           <h2 hidden>Список soft skills</h2>
-           <ul>
-               <li>
-                   <h3>Внимание к деталям</h3>
-                   <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                </li>
-               <li>
-                   <h3>Пунктуальность</h3>
-                   <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                </li>
-               <li>
-                   <h3>Планирование</h3>
-                   <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                </li>
-               <li>
-                   <h3>Современные технологии</h3>
-                   <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                </li>
-        </ul>
-       </section>
-
-       <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
-            <li><img src="images/img.png"
-                     sizes="width: 370"
-                     alt="Робота за комп'ютером"></li>
-            <li><img src="images/img (1).png"
-                     sizes="width: 370"
-                     alt="Технології">
-                    </li>
-            <li><img src="images/img (2).png"
-                     sizes="width: 370"
-                     alt="Програми. Додатки">
+     <div class="about">
+        <section>
+            <h2 hidden>Список soft skills</h2>
+            <ul>
+                <li>
+                    <h3>Внимание к деталям</h3>
+                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                 </li>
+                <li>
+                    <h3>Пунктуальность</h3>
+                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                 </li>
+                <li>
+                    <h3>Планирование</h3>
+                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                 </li>
+                <li>
+                    <h3>Современные технологии</h3>
+                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                 </li>
+         </ul>
+        </section>
+ 
+        <section>
+         <h2>Чем мы занимаемся</h2>
+         <ul>
+             <li><img src="images/img.png"
+                      sizes="width: 370"
+                      alt="Робота за комп'ютером"></li>
+             <li><img src="images/img (1).png"
+                      sizes="width: 370"
+                      alt="Технології">
                      </li>
-        </ul>
-       </section>
+             <li><img src="images/img (2).png"
+                      sizes="width: 370"
+                      alt="Програми. Додатки">
+                      </li>
+         </ul>
+        </section>
+     </div>
     
     <!-- Наша команда -->
-    <section>
+    <section class="team">
         <h2>Наша команда</h2>
         <ul>
             <li>
@@ -108,11 +114,11 @@
     </section>
       </main>
       <!-- Підвал -->
-      <footer>
+      <footer class="footer">
         <a href="#"><span>Web</span>Studio</a>
         <address>
             <ul>
-                <li><a href="">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li><a href=""г. Киев, пр-т Леси Украинки, 26></a></li>
                 <li><a href="mailto: info@example.com">info@example.com</a></li>
                 <li><a href="tel: +380991111111">+38 099 111 11 11</a></li>
             </ul>

@@ -1,0 +1,38 @@
+:root{
+    /* colors */
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+     
+    /* fonts */
+    --main-font: "Roboto";
+    --secondary-font: "Raleway";
+}
+
+body{
+    font-family: "Roboto", "Raleway", sans-serif;
+    font-size: 14px;
+    line-height: 1.14;
+   
+    color: var(--primary-text-color);
+}
+.header{
+    background-color: var(--primary-white-color);
+    
+}    
+.logo{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.h-logo{
+    color: var(--accent-color);
+}
+
+.header-link{
+    text-decoration: none;
+}
