@@ -61,3 +61,31 @@ body{
 .contact:hover{
     color: var(--accent-color);
 }
+
+
+/* Main */
+
+.section{
+    background-color: #2F303A;
+}
+
+.title{
+    color: var(--primary-white-color);
+    font-family: var(--main-font);
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    align-items: center;
+}
