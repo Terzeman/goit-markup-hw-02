@@ -16,6 +16,10 @@ body{
     line-height: 1.14;
    
     color: var(--primary-text-color);
+
+
+    /* Header */
+
 }
 .header{
     background-color: var(--primary-white-color);
@@ -32,7 +36,28 @@ body{
 .h-logo{
     color: var(--accent-color);
 }
+.logo:hover{
+    text-decoration: underline;
+    color: var(--accent-color);
+}
+
+.list{
+    list-style: none;
+}
 
 .header-link{
     text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.current{
+    color: var(--accent-color);
+}
+
+.contact{
+    color: var(--secondary-text-color);
+}
+
+.contact:hover{
+    color: var(--accent-color);
 }
