@@ -5,107 +5,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#"><span>Web</span>Studio</a></li>
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+    <header class="header">
+        <nav class="nav">
+            <ul class="list">
+                <li class="header-item"><a class="logo header-link" href="#"><span class="h-logo">Web</span>Studio</a></li>
+                <li class="header-item"><a class="header-link" href="./index.html">Студия</a></li>
+                <li class="header-item"><a class="header-link current" href="">Портфолио</a></li>
+                <li class="header-item"><a class="header-link" href="">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
-                <li><a href="mailto: info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel: +380961111111">+38 096 111 11 11</a></li>
+        <ul class="list">
+                <li ><a class="contact" href="mailto: info@devstudio.com">info@devstudio.com</a></li>
+                <li ><a class="contact" href="tel: +380961111111">+38 096 111 11 11</a></li>
         </ul>
-    </header>
+      </header>
 
     <main class="portfolio"> 
 <!-- Список кнопок -->
 <section>
-<ul>
+<ul class="list">
     <li>
-        <button type="button">Все</button>
+        <button class="button" type="button">Все</button>
     </li>
     <li>
-        <button type="button">Веб-сайты</button>
+        <button class="button" type="button">Веб-сайты</button>
     </li>
     <li>
-        <button type="button">Приложения</button>
+        <button class="button" type="button">Приложения</button>
     </li>
     <li>
-        <button type="button">Дизайн</button>
+        <button class="button" type="button">Дизайн</button>
     </li>
     <li>
-        <button type="button">Маркетинг</button>
+        <button class="button" type="button">Маркетинг</button>
     </li>
 </ul>
 
 <!-- Список карток -->
 
     <h2 hidden>Список карток</h2>
-<ul>
+<ul class="list">
     <li>
         <img src="images/job1.jpg" alt="Технокряк" width="370" height="294">
-        <h2>Технокряк</h2>
-        <p>Веб-сайт</p>
+        <h2 class="slogan">Технокряк</h2>
+        <p class="copyright">Веб-сайт</p>
     </li>
     <li>
         <img src="images/job2.jpg" alt="Постер New Orlean vs Golden Star" width="370" height="294">
-        <h2>Постер New Orlean vs Golden Star</h2>
-        <p>Дизайн</p>
+        <h2 class="slogan">Постер New Orlean vs Golden Star</h2>
+        <p class="copyright">Дизайн</p>
     </li>
     <li>
         <img src="images/job3.jpg" alt="Ресторан Seafood" width="370" height="294">
-        <h2>Ресторан Seafood</h2>
-        <p>Приложение</p>
+        <h2 class="slogan">Ресторан Seafood</h2>
+        <p class="copyright">Приложение</p>
     </li>
     <li>
         <img src="images/job4.jpg" alt="Проект Prime" width="370" height="294">
-        <h2>Проект Prime</h2>
-        <p>Маркетинг</p>
+        <h2 class="slogan">Проект Prime</h2>
+        <p class="copyright">Маркетинг</p>
     </li>
     <li>
         <img src="images/job5.jpg" alt="Проект Boxes" width="370" height="294">
-        <h2>Проект Boxes</h2>
-        <p>Приложение</p>
+        <h2 class="slogan">Проект Boxes</h2>
+        <p class="copyright">Приложение</p>
     </li>
     <li>
         <img src="images/job6.jpg" alt="Inspiration has no Borders" width="370" height="294">
-        <h2>Inspiration has no Borders</h2>
-        <p>Веб-сайт</p>
+        <h2 class="slogan">Inspiration has no Borders</h2>
+        <p class="copyright">Веб-сайт</p>
     </li>
     <li>
         <img src="images/job7.jpg" alt="Издание Limited Edition" width="370" height="294">
-        <h2>Издание Limited Edition</h2>
-        <p>Дизайн</p>
+        <h2 class="slogan">Издание Limited Edition</h2>
+        <p class="copyright">Дизайн</p>
     </li>
     <li>
         <img src="images/job8.jpg" alt="Проект LAB" width="370" height="294">
-        <h2>Проект LAB</h2>
-        <p>Маркетинг</p>
+        <h2 class="slogan">Проект LAB</h2>
+        <p class="copyright">Маркетинг</p>
     </li>
     <li>
         <img src="images/job9.jpg" alt="Growing Business" width="370" height="294">
-        <h2>Growing Business</h2>
-        <p>Приложение</p>
+        <h2 class="slogan">Growing Business</h2>
+        <p class="copyright">Приложение</p>
     </li>
 </ul>
 </section>
 
     </main>
 
-    <footer>
-        <a href="#"><span>Web</span>Studio</a>
+    <footer class="footer">
+        <a class="secondary-logo" href="#"><span class="h-logo">Web</span>Studio</a>
         <address>
-            <ul>
-                <li><a href="">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="mailto: info@example.com">info@example.com</a></li>
-                <li><a href="tel: +380991111111">+38 099 111 11 11</a></li>
+            <ul class="list">
+                <li><a class="address" href=""г. Киев, пр-т Леси Украинки, 26></a></li>
+                <li><a class="address" href="mailto: info@example.com">info@example.com</a></li>
+                <li><a class="address" href="tel: +380991111111">+38 099 111 11 11</a></li>
             </ul>
         </address>
-    </footer>
+      </footer>
 </body>
 </html>
