@@ -38,7 +38,7 @@ body{
 }
 .logo:hover{
     text-decoration: underline;
-    color: var(--accent-color);
+
 }
 
 .list{
@@ -88,6 +88,7 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     align-items: center;
+    border-radius: 4px;
 }
 
 /* About */
@@ -167,31 +168,46 @@ body{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.secondary-logo:hover{
+    text-decoration: underline;
 }
 
 .address{
-color: var(--primary-white-color);
-font-family: 'Roboto';
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 /* portfolio */
 
+.btn{
+    color: var(--primary-text-color);
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.btn:hover, .btn:focus{
+    background-color: var(--accent-color);
+}
+
 .slogan{
     color: var(--primary-text-color);
     font-family: 'Roboto';
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 
 }
 
 .copyright{
     color: var(--secondary-text-color);
     font-family: 'Roboto';
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
