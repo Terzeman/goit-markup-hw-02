@@ -33,9 +33,11 @@ body{
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
+
 .h-logo{
     color: var(--accent-color);
 }
+
 .logo:hover{
     text-decoration: underline;
 
@@ -93,6 +95,10 @@ body{
 
 /* About */
 
+.about{
+    background: #E5E5E5;
+}
+
 .subject{
     color: var(--primary-text-color);
     font-family: 'Roboto';
@@ -120,6 +126,10 @@ body{
 }
 
 /* Team */
+
+.team{
+    background: #F5F4FA;
+}
 
 .headline{
     color: var(--primary-text-color);
@@ -185,10 +195,15 @@ body{
 
 /* portfolio */
 
+.projects{
+    background-color: #E5E5E5;
+}
+
 .btn{
     color: var(--primary-text-color);
     background: #F5F4FA;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .btn:hover, .btn:focus{
