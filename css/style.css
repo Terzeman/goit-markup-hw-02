@@ -37,7 +37,7 @@ body{
 }
 
 .logo:hover{
-    text-decoration: underline;
+ 
 }
 
 .h-logo{
@@ -46,6 +46,7 @@ body{
 
 .list{
     list-style: none;
+
 }
 
 .header-link{
@@ -135,7 +136,7 @@ body{
 /* Team */
 
 .team{
-    background: var(--secondary-bg-color)
+    background: var(--secondary-bg-color);
 }
 
 .headline{
@@ -189,7 +190,7 @@ body{
 }
 
 .secondary-logo:hover{
-    text-decoration: underline;
+  
 }
 
 .address{
@@ -202,15 +203,26 @@ body{
     text-decoration: none;
 }
 
+.contact {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
 /* portfolio */
 
 .projects{
     background-color: var(--primary-white-color);
 }
 
+
+
 .btn{
     color: var(--primary-text-color);
-    background: var(--secondary-bg-color)
+    background: var(--secondary-bg-color);
     border-radius: 4px;
     cursor: pointer;
     font-weight: 500;
@@ -222,6 +234,7 @@ body{
 
 .btn:hover, .btn:focus{
     background-color: var(--accent-color);
+    color: var(--primary-white-color);
 }
 
 .slogan{
